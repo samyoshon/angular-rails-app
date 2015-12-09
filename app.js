@@ -1,4 +1,15 @@
 angular.module('flapperNews', [])
+	.factory('posts', [function() {
+		var o ={
+			posts: []
+		};
+		//return to give access to other Angular modules
+		return o;
+	}]);
+
+
+
+angular.module('flapperNews', [])
 	.controller('MainCtrl', [
 		'$scope', function($scope) {
 			//Properties and Methods
