@@ -10,6 +10,9 @@ angular.module('flapperNews', [])
 				{title: 'post 4', upvotes: 9},
 				{title: 'post 5', upvotes: 4}
 			];
+			$scope.incrementUpvotes = function(post) {
+				post.upvotes += 1;
+			};
 			$scope.addPost = function() {
 				if (!$scope.title || $scope.title === '') {
 					return;
@@ -17,5 +20,6 @@ angular.module('flapperNews', [])
 				$scope.posts.push({title: $scope.title, upvotes: 0});
 				$scope.title = '';
 			};
+
 		}
 	]);
