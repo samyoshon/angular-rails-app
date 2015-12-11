@@ -9,6 +9,7 @@ angular.module('jetPath')
 
 		//method - Calls API
 		this.getJobs = function(callback){
+			// API goes here 
 			$http.get('https://api.doughnuts.ga/doughnuts')
 				.then(callback);
 		};
