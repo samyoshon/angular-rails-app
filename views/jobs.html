@@ -5,16 +5,16 @@ JOBS PAGE
 	<!-- Initial div that shows -->
 	<span>
 		<!-- slide-toggle="#row_{{$index}}" -->
-		  <div>
+			<div>
 		    <!-- header tags are display-block -->
-			    <h1>{{$index}}</h1>
-			    <h4>Jobs Title and description goes here</h4>
-		  </div>
+				<h1>{{$index}}</h1>
+				<h4>Jobs Title and description goes here</h4>
+			</div>
 		  <!-- Show when showDetails is true. Originally set to false -->
-		  <div ng-hide="!showDetails">
+			<div ng-hide="!showDetails">
 		  <!-- id="row_{{$index}}" class="slideable" -->
-			    <h2>{{job.flavor}}</h2>
-			    <h2>{{job.style}}</h2>
-		  </div>
+				<h2>{{job.flavor}}</h2>
+				<h2>{{job.style}}</h2>
+			</div>
 	</span>
 </div>

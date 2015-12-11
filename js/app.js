@@ -22,7 +22,14 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 
         .state('login', {
             url: '/login',
-            templateUrl: '../views/login.html'
+            templateUrl: '../views/login.html',
+            controller: 'loginCtrl'
+        })
+
+        .state('post', {
+            url: '/login/post',
+            templateUrl: '../views/post.html',
+            controller: 'postCtrl'
         });
         
 });
