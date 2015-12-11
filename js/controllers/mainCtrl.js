@@ -5,13 +5,12 @@ angular.module('jetPath')
 
 		//methods
 			//Call API - Get JSON
-
+	
 		mainService.getJobs(function(response) {
 			console.log(response.data);
 			$scope.jobs = response.data;
-		})
+		});
 
 		
-
 		// API call to GET objects
 	});

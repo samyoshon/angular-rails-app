@@ -1,5 +1,3 @@
-//Not using Service because GET is being handled in the Controller
-
 'use strict';
 
 angular.module('jetPath')
