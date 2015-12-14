@@ -15,8 +15,8 @@ POST
 		  <br>
 		  	<!-- location input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="location">Location:</label>
-		  <input class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-model="job.city" type="text" id="city" placeholder="City">
-		  <select class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-model="job.country" type="text" id="country" placeholder="Country">
+		  <input class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-model="job.locationCity" type="text" id="city" placeholder="City">
+		  <select class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-model="job.locationCountry" type="text" id="country" placeholder="Country">
 		  	<option value="AF">Afghanistan</option>
 			<option value="AX">Åland Islands</option>
 			<option value="AL">Albania</option>
@@ -276,18 +276,18 @@ POST
 		  <br>
 		  	<!-- salary input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="salary">Salary:</label>
-		  <input ng-model="job.low" type="text" id="salary.low"> - <input ng-model="job.high" type="text" id="salary.high">
+		  <input ng-model="job.salaryLow" type="text" id="salary.low"> - <input ng-model="job.salaryHigh" type="text" id="salary.high">
 		  <br>
 		  <br>
 		  	<!-- benefits input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="benefits">Benefits:</label>
-		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.benefits" type="text" id="benefits" maxlength="100" placeholder="Benefits"></textarea>
+		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.benefitsDescription" type="text" id="benefits" maxlength="100" placeholder="Benefits"></textarea>
 		 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			  <input ng-model="job.airfare" type="checkbox">Subsidized Airfare
-			  <input ng-model="job.housing" type="checkbox" id="housing">Subsidized Housing
-			  <input ng-model="job.medical" type="checkbox" id="medical">Medical Insurance
-			  <input ng-model="job.pto" type="checkbox" id="pto">Paid Vacation Days
-			  <input ng-model="job.sick" type="checkbox" id="pto">Paid Sick Days
+			  <input ng-model="job.benefitsAirfare" type="checkbox">Subsidized Airfare
+			  <input ng-model="job.benefitsHousing" type="checkbox" id="housing">Subsidized Housing
+			  <input ng-model="job.benefitsMedical" type="checkbox" id="medical">Medical Insurance
+			  <input ng-model="job.benefitsPto" type="checkbox" id="pto">Paid Vacation Days
+			  <input ng-model="job.benefitsSick" type="checkbox" id="pto">Paid Sick Days
 			</div>
 		  <br>
 		  <br>
