@@ -10,7 +10,7 @@ POST
 		  <br>
 		    <!-- job description input // HAS MAX LENGTH -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="description">Job Description:</label>
-		  <input class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.description" type="text" id="description" maxlength="300">
+		  <input class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.description" type="text" id="description" maxlength="600">
 		  <br>
 		  <br>
 		  	<!-- location input -->
@@ -271,7 +271,7 @@ POST
 		  <br>
 		    <!-- qualification input // HAS MAX LENGTH -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="qualifications">Qualifications:</label>
-		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.qualifications" type="text" id="qualifications" maxlength="300" placeholder="Qualifications"></textarea>
+		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.qualifications" type="text" id="qualifications" maxlength="600" placeholder="Qualifications"></textarea>
 		  <br>
 		  <br>
 		  	<!-- salary input -->
@@ -281,7 +281,7 @@ POST
 		  <br>
 		  	<!-- benefits input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="benefits">Benefits:</label>
-		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.benefitsDescription" type="text" id="benefits" maxlength="100" placeholder="Benefits"></textarea>
+		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.benefitsDescription" type="text" id="benefits" maxlength="600" placeholder="Benefits"></textarea>
 		 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			  <input ng-model="job.benefitsAirfare" type="checkbox">Subsidized Airfare
 			  <input ng-model="job.benefitsHousing" type="checkbox" id="housing">Subsidized Housing
@@ -293,12 +293,12 @@ POST
 		  <br>
 		  	<!-- additional info input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="additional">Additional Info:</label>
-		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.additionalinfo" type="text" id="additional" maxlength="300" placeholder="Additional Info"></textarea>
+		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.additionalinfo" type="text" id="additional" maxlength="600" placeholder="Additional Info"></textarea>
 		  <br>
 		  <br>
 		  	<!-- how to apply input -->
 		  <label class="col-xs-4 col-sm-4 col-md-4 col-lg-4" for="apply">How to Apply:</label>
-		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.apply" type="text" id="apply" maxlength="300" placeholder="How to Apply"></textarea>
+		  <textarea class="col-xs-8 col-sm-8 col-md-8 col-lg-8" ng-model="job.apply" type="text" id="apply" maxlength="600" placeholder="How to Apply"></textarea>
 		    <!-- submit -->
 		  <button type="submit">Post</button>
 		</form>

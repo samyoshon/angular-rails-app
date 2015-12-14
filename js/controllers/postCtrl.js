@@ -21,7 +21,7 @@ angular.module('jetPath')
 			$scope.job.benefitsSick = job.benefitsSick;
 			$scope.job.additionalinfo = job.additionalinfo;
 			$scope.job.apply = job.apply;
-	console.log($scope.job);
+		//NEED TO SEND JOB OBJECT TO RAILS TO AUTHENTICATE
 	};
 
 
